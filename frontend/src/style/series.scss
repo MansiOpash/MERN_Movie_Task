@@ -1,0 +1,59 @@
+.main_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0% 7%;
+  margin: 30px;
+  justify-content: center;
+  overflow: auto;
+  height: auto;
+}
+.container_main_box {
+  display: flex;
+  height: auto;
+  margin-bottom: 5rem;
+  flex-direction: column;
+}
+
+.main p {
+  text-align: center;
+}
+
+.main {
+  height: auto;
+  width: 130px;
+}
+.page {
+  display: flex;
+  height: auto;
+  margin: auto;
+  margin-bottom: 141px;
+}
+
+.sub {
+  display: flex;
+  height: 180px;
+  width: 130px;
+  color: white;
+  background-color: antiquewhite;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sub img {
+  width: 100%;
+}
+
+.info {
+  margin: 30px 0px 0px 30px;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+.hero {
+  flex-grow: 1;
+}
+.header {
+  height: 100px;
+  background-color: rgb(254, 229, 229);
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  > img {
+    height: 100%;
+  }
+  > div {
+    width: 100%;
+    margin-left: 4vmax;
+  }
+  > svg {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(235, 227, 227);
+    }
+  }
+}
+a,
+h2 {
+  color: white;
+}
+a {
+  text-decoration: none;
+  margin: 1vmax;
+}
+
+@import "./style/Home";
+@import "./style/Navbar";
+@import "./style/Title";
+@import "./style/Footer";
+@import "./style/series";
+@import "./style/page.scss";
